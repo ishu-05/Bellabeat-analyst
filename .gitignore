@@ -1,0 +1,33 @@
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ===== Jupyter =====
+.jupyter/
+*.nbconvert.ipynb
+
+# ===== Power BI =====
+*.pbix
+*.pbix.bak
+*.pbix.tmp
+~$*.pbix
+
+# ===== Large data files =====
+data/raw/*
+data/cleaned/heart_rate_clean.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===== Env =====
+.env
